@@ -8,12 +8,12 @@ Lightweight and easy to use
 Usage
 To run the port scanner, use the command:
 
-python portScanner.py <target_host>
+python bps.py <target_host>
 
 Replace <target_host> with the IP address you wish to scan.
 
 Example
-python portScanner.py 192.168.1.1
+python bps.py 192.168.1.1
 
 Prerequisites
 Python 3.x
@@ -27,7 +27,7 @@ To install this port scanner and its dependencies, you have two options:
 
 Using setup.py
 Clone the repository:
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/iamblody/port-scanner.git
 
 Navigate to the project directory:
 cd your-repository
@@ -37,10 +37,10 @@ python setup.py install
 
 Using requirements.txt
 Clone the repository:
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/iamblody/port-scanner.git
 
 Navigate to the project directory:
-cd your-repository
+cd port-scanner
 
 Install the dependencies:
 pip install -r requirements.txt
